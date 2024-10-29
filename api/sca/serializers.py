@@ -73,8 +73,8 @@ class MissionSerializer(serializers.ModelSerializer):
         instance.is_completed = is_completed
         instance.save()
 
-        # SOMEHOW I BROKE THIS PART AND HAVE NO IDEA HOW TO FIX IT
-        # SO I JUST GAVE UP AND MOVED ON
+        # SOMEHOW I MANAGE TO BROKE THIS PART AND HAVE NO IDEA HOW TO FIX IT
+        # SO I JUST GAVE UP AND MOVED ON BECAUSE THERE IS NO TIME LEFT
         if targets_data:
             for target_data in targets_data:
                 target_id = target_data.get('id')
