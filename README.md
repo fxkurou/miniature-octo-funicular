@@ -1,10 +1,10 @@
-# Mission Management API
+# SCA API
 
 This Django-based API allows the management of missions, targets, and spy cats. The API supports CRUD operations for missions, the ability to update targets within a mission, and the management of spy cats and their availability.
 
 ## Overview
 
-The **Mission Management API** is designed to manage missions for spy cats. Each mission can have multiple targets, and a spy cat can be assigned to a mission. Once a mission is marked as complete, the assigned cat is made available for new assignments, and targets can be updated or completed within a mission.
+The **SCA API** is designed to manage missions for spy cats. Each mission can have multiple targets, and a spy cat can be assigned to a mission. Once a mission is marked as complete, the assigned cat is made available for new assignments, and targets can be updated or completed within a mission.
 
 ## Features
 
