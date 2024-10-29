@@ -14,8 +14,6 @@ The **Mission Management API** is designed to manage missions for spy cats. Each
 - **Assign Cats to Missions**: Manage cat assignments to missions.
 - **Complete Missions**: Mark missions as complete and unassign cats.
 
-## Setup and Installation
-
 ### Prerequisites
 
 - Python 3.8+
@@ -49,3 +47,4 @@ The **Mission Management API** is designed to manage missions for spy cats. Each
     ```
 7. Access the API at `http://localhost:8000/api/`
 
+8. Postman collection for testing endpoints `https://drive.google.com/file/d/1vcjYFniVLbTshgiMStn9BiEJDodKbB10/view`
